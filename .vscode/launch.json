@@ -1,0 +1,43 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "my_app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Android",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554"
+    },
+    {
+      "name": "iPhoneSE",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "B325B38F-4D98-4C1A-8531-50A49B9F27E4"
+    },
+    {
+      "name": "iPhone14Pro",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "59415D43-FE16-4BA5-BFE5-018660336BB5"
+    },
+    {
+      "name": "Chrome",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["Android", "iPhoneSE", "iPhone14Pro"]
+    }
+  ]
+}
